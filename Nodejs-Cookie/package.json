@@ -1,0 +1,31 @@
+{
+  "name": "web2-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon express-session.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-n/Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-n/Nodejs/issues"
+  },
+  "homepage": "https://github.com/web-n/Nodejs#readme",
+  "dependencies": {
+    "express-session": "^1.17.2",
+    "sanitize-html": "^1.18.2",
+    "session-file-store": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
